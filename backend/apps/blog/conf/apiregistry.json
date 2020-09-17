@@ -1,0 +1,6 @@
+{
+    "/apis/post" : "/apis/post.js?needsToken=false&addsToken=sub:access",
+    "/apis/get" : "/apis/get.js?get=true&needsToken=false&addsToken=sub:access",
+    "/apis/edit" : "/apis/edit.js?needsToken=false&addsToken=sub:access",
+    "/apis/delete" : "/apis/delete.js?needsToken=false&addsToken=sub:access"
+}

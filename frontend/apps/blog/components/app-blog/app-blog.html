@@ -1,0 +1,24 @@
+
+<div id="app-blog">
+    <label for="heading" style="margin:0 auto; size: 30px; font-weight: bold;">Blog Application</label><br><br>
+    <div>
+      <label for="author" style="align-content: center; size: 20px;">Author</label>
+      <input type="text" name="author" id="author" style="align-content: center; size: 40px; margin-left: 10px;"/>
+    </div><br>
+    
+    <div>
+      <label for="blog" style="align-content: center; size: 20px;">Blog</label>
+      <textarea id="blogtext" name="blogtext" rows="4" cols="50" style="align-content: center; size: 40px; margin-left: 25px;"></textarea>
+    </div><br>
+    
+    <input type="button" value="Post" id="post-blog" style="align-content: center; size: 20px;" onclick='monkshu_env.components["app-blog"].postBlog()'>
+    <input type="button" value="Get Blogs" id="get-blogs" style="align-content: center; size: 20px;" onclick='monkshu_env.components["app-blog"].getBlogs()'>
+
+    <br><br>
+    
+    <div>
+      <input type="hidden" id="post_id">
+      <br><br>
+      <div name="tableDiv" id="tableDiv">
+    </div>
+</div>
